@@ -1,11 +1,10 @@
-# Homebrew cask for Margins.
+# Homebrew cask for Margins — a native macOS Markdown reader.
 #
-# This is the source of truth. To publish, copy it into your tap repo
-# (github.com/Chrismacolor/homebrew-tap) under Casks/, updating `version` and
-# `sha256` to match the released DMG (release.sh prints the sha256). Users then:
+# Source of truth lives in the app repo at github.com/Chrismacolor/margins
+# (homebrew/margins.rb); this is the published copy. On each release, copy that
+# file here and bump `version` + `sha256` to the released DMG.
 #
-#   brew tap Chrismacolor/tap
-#   brew install --cask margins
+#   brew install --cask Chrismacolor/tap/margins
 #
 # Updates flow through `brew upgrade` — no in-app updater (keeps the app
 # zero-dependency).
